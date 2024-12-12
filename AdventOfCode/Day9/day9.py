@@ -63,8 +63,8 @@ if __name__ == '__main__':
         for clave,valor in files.items():
             #Si la longitud de los files es lo mismo que la longiturd e los puntos blancos
             for claveB,keyB in blancos.items():
-                if claveB == (len(valor)):
-                    elemento = keyB.remove(0)
+                if claveB >= (len(valor[0])):
+                    elemento = keyB[0].remove(0)
                     for x,val in enumerate(elemento):
                         files[val], files[valor[x]] = files[valor[x]], files[val]
 
