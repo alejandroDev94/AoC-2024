@@ -1,5 +1,7 @@
 import re
 def ley_cramer(ax,bx,px,ay,by,py):
+
+    # https://es.wikipedia.org/wiki/Regla_de_Cramer
     determinante = ax * by - bx * ay
     if determinante == 0:
         return (None,None)
