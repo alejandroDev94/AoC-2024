@@ -1,0 +1,5 @@
+#Anula todo menos lo que nosotros le digamos
+*
+#Las unicas carpetas que queremos que suba
+!AdventOfCode/*
+!.gitignore
